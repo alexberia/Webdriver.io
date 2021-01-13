@@ -10,7 +10,7 @@ import utl from '../../utilities/common-utilities';
 */
 
 describe('Buscar um produto pelo nome', () => {
-  it('Consultar pela nome do produto', () => {
+  it('Consultar pelo nome do produto', () => {
     HomePage.open();
     HomePage.consultarProduto('Tênis');
     expect(BuscaProduto.validarPagina()).toBe(true) 
